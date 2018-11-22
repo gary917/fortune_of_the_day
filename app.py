@@ -1,7 +1,4 @@
 from flask import Flask, render_template, request
-
-URI = 'https://' + HOST_NAME + BUCKET_NAME
-
 application = Flask(__name__)
 
 
